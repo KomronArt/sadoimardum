@@ -5,6 +5,9 @@
     text-decoration: none;
     list-style: none;
 }
+a{
+    color: #333;
+}
 body{
     background-color: #F6F6F6 ;
     background-image: url(./img/bg-body.png) repeat;
@@ -25,6 +28,7 @@ body{
     height: 35px;
     background: url("./img/bg-color.png");
     border-bottom: 1px solid rgb(192, 190, 190);
+    padding-left: 30px;
 }
 .nav-header ul li a{
     text-decoration: none;
@@ -61,9 +65,10 @@ body{
 
 }
 .marqueu div a{
-    padding-right: 500px;
+    margin-right: 200px;
     text-decoration: none;
     color: #333;
+    font-size: 20px;
 }
 .header-menu ul{
     display: flex;
@@ -106,9 +111,6 @@ body{
     grid-template-columns: 1rf;
 }
 
-
-
-
 .slider-images img{
     width: 70px;
     height: 60px;
@@ -121,8 +123,118 @@ body{
 .topnav a{
     font-family: Palatino Linotype;
     font-size: 12px;
-    border-bottom: 1px dotted #999;
+    border-bottom: 1px dashed #999;
     color: #333;
     line-height: 3;
     display: block;
+}
+
+.new-posts{
+    margin-top: 35px;
+}
+.new-posts-title{
+    font-size: 24px;
+    color: #888;
+    text-shadow: 1px 1px 1px #fff;
+    padding: 8px 0 0 10px;
+    margin-bottom: 25px;
+}
+.last-posts{
+    height: 83px;
+    padding: 10px 0 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+    grid-template-rows: 4fr;
+    border-bottom: 1px dashed #888;
+    overflow: hidden;
+
+}
+.posts-img{
+    width: 50px;
+    height: 50px;
+    grid-row: 1/4;
+}
+.posts-title{
+    font-size: 12px;
+    font-family: Palatino Linotype;
+    line-height: 18px;
+    color: #333;
+}
+.posts-date{
+    font-size: 10px;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-content-items-title{
+    font-family: Palatino Linotype;
+    font-size: 26px;
+    height: 51px;
+    width: 315px;
+    background-color: rgb(219, 219, 219);
+    border-top: 1px solid rgb(199, 199, 199);
+    border-bottom: 1px solid rgb(199, 199, 199);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.main-content-items-title a{
+    color: #333;
+
+}
+.main-content-items-title a:hover{
+    text-decoration: underline;
+}
+.president-news{
+    margin-right: 20px;
+}
+.post-big{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.post-big-img{
+    padding: 2px;
+    border: 1px solid #c0c0c0;
+    width: 300px;
+    height: 165px;
+}
+.post-big-text{
+    color:#333;
+    font-size: 20px;
+    font-family: Palatino Linotype;
+}
+.post-big-date{
+    color: rgb(146, 146, 146);
+    font-size: 12px;
+}
+.posts-small{
+    padding: 10px 0 10px 0;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 4fr ;
+    border-bottom: 1px dashed #888;
+    overflow: hidden;
+}
+.bottom-side{
+    margin-top: 100px;
+    font-size: 24px;
+    color: #888;
+}
+.search-input{
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    margin: 30px 0 60px 0;
+}
+.arcive-block p{
+    margin-bottom: 30px;
+}
+.facebook{
+    margin-top: 60px;
+}
+.facebook p{
+    margin-bottom: 30px;
 }
