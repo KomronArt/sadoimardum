@@ -4,9 +4,13 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'PT Serif', serif;
 }
 a{
     color: #333;
+}
+a:hover{
+    text-decoration: underline;
 }
 body{
     background-color: #F6F6F6 ;
@@ -32,7 +36,6 @@ body{
 }
 .nav-header ul li a{
     text-decoration: none;
-    font-family: Palatino Linotype;
     font-size: 12px;
     text-transform: uppercase;
     color: #999;
@@ -43,7 +46,6 @@ body{
 }
 .header-info p{
     font-size: 13px;
-    font-family: Palatino Linotype;
     width: 290px;
 }
 .header img{
@@ -81,7 +83,6 @@ body{
 }
 .header-menu ul li a{
     text-decoration: none;
-    font-family: Palatino Linotype;
     font-size: 18px;
     color: #fff;
     border-left: 1px solid #000;
@@ -121,7 +122,6 @@ body{
 }
 
 .topnav a{
-    font-family: Palatino Linotype;
     font-size: 12px;
     border-bottom: 1px dashed #999;
     color: #333;
@@ -156,9 +156,9 @@ body{
 }
 .posts-title{
     font-size: 12px;
-    font-family: Palatino Linotype;
     line-height: 18px;
     color: #333;
+    font-family: 'Roboto Slab', serif;
 }
 .posts-date{
     font-size: 10px;
@@ -169,7 +169,6 @@ body{
     grid-template-columns: 1fr 1fr;
 }
 .main-content-items-title{
-    font-family: Palatino Linotype;
     font-size: 26px;
     height: 51px;
     width: 315px;
@@ -183,10 +182,8 @@ body{
 }
 .main-content-items-title a{
     color: #333;
+    font-weight: lighter;
 
-}
-.main-content-items-title a:hover{
-    text-decoration: underline;
 }
 .president-news{
     margin-right: 20px;
@@ -204,7 +201,6 @@ body{
 .post-big-text{
     color:#333;
     font-size: 20px;
-    font-family: Palatino Linotype;
 }
 .post-big-date{
     color: rgb(146, 146, 146);
